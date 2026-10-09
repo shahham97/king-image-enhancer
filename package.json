@@ -1,0 +1,18 @@
+{
+  "name": "kingshyer-image-enhancer",
+  "version": "1.0.0",
+  "description": "Kingshyer Atelier Parfums — Offline In-Memory Image Enhancer & Batch WebP Resizer",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Build complete: static site ready for Vercel deployment'",
+    "start": "python -m http.server 8088",
+    "serve": "python -m http.server 8088"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "jszip": "^3.10.2"
+  }
+}
